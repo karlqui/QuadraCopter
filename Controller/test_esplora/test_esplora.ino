@@ -1,9 +1,11 @@
+
+
 int timeout = 2000;
 char readS[20];
 #include "Esplora.h"  
 #include "TFT.h"
 #include "SPI.h"
- #include <SoftwareSerial.h>
+#include <SoftwareSerial.h>
  SoftwareSerial RFSerial(11, 3);
 //#DEFINE DEBUG
 //#DEFINE PRINT_RF

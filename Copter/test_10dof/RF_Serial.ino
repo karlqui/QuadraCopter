@@ -17,6 +17,10 @@
    return RFSerial.read();
   
  }
+  void flushRF(){
+   while(charAvail())
+     readCharRF();
+ }
  
  char readCharTimeout(int timeout){
    int time = 0;

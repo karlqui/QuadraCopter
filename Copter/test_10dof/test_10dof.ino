@@ -30,8 +30,8 @@ int liftOffSpeed = 0;
 //#define PRINT_RF
 //#define PRINT_DISTANCE
 //#define PRINT_LIFTOFFSPEED
-#define PRINT_CAL_PITCH
-#define PRINT_CAL_ROLL
+//#define PRINT_CAL_PITCH
+//#define PRINT_CAL_ROLL
 void readStringRF(char (&inString)[20], int timeOutDelay);
 
 void setup() {

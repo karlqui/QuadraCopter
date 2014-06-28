@@ -32,7 +32,7 @@ void checkMenu(){
 void menuAction(int id){
   switch(id){
     case 0:
-      //@TODO start quadcopter
+      setupStartCopter();
       break;
     case 1:
       setupCommunicationMenu();

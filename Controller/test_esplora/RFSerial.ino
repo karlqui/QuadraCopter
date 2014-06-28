@@ -6,6 +6,11 @@
    RFSerial.begin(9600);
  }
  
+ void flushRF(){
+   while(charAvail())
+     readCharRF();
+ }
+ 
  bool charAvail(){
    return RFSerial.available();
  }
